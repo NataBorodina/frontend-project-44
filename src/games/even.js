@@ -8,7 +8,7 @@ const isEven = (number) => number % 2 === 0;
 export const game = () => {
   const number = getRandomNum(100);
   console.log(`Question: ${number}`);
-  const userAnswer = readlineSync.question(`Your answer: ${userAnswer}`);
+  const userAnswer = readlineSync.question('Your answer: ');
   const correctAnswer = (isEven(number) ? 'yes' : 'no');
   return { userAnswer, correctAnswer };
 };

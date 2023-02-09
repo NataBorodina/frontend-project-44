@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { welcome } from '../src/games/index.js';
-import playEven from '../src/games/even.js';
+import playGsd from '../src/games/gcd.js';
 
 welcome();
-playEven();
+playGsd();
